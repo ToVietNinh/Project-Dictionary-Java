@@ -1,0 +1,20 @@
+head:Đầu
+dictionary:Từ Điển
+hat:Mũ
+advance:Cơ Bản
+basic:Nâng cao
+hello:Xin Chào
+hi:Chào
+home:Nhà
+word:Từ
+university:Đại học
+tree:Cây
+controller:Điều khiển
+abstract:trừu tượng
+low:Thấp
+high:Cao
+distance:Khoảng cách
+leaf:Cây
+leave:Rời bỏ
+power:Năng lượng
+chicken:Gà

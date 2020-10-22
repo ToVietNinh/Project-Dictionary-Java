@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TransTextController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/backgroundTranstext.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="235.0" layoutY="36.0" prefHeight="40.0" prefWidth="131.0" text="Translate-Text" textFill="#e210e5">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="480.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleEventTranslate" text="Translate" />
+      <TextArea fx:id="textAreaSecond" layoutX="142.0" layoutY="244.0" prefHeight="94.0" prefWidth="300.0" />
+      <Label fx:id="labelFirst" layoutX="16.0" layoutY="126.0" prefHeight="40.0" prefWidth="98.0" text="English" textFill="#f80a0a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSecond" layoutX="16.0" layoutY="244.0" prefHeight="27.0" prefWidth="98.0" text="Vietnamese" textFill="#1c0ae4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="261.0" layoutY="355.0" mnemonicParsing="false" onAction="#changeSceneSample" prefHeight="25.0" prefWidth="53.0" text="Back" />
+      <Button layoutX="485.0" layoutY="207.0" mnemonicParsing="false" onAction="#transferEng_Vie" prefHeight="25.0" prefWidth="53.0" />
+      <ImageView fitHeight="25.0" fitWidth="53.0" layoutX="512.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/TranferEngVie.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="textAreaFirst" layoutX="142.0" layoutY="99.0" prefHeight="94.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>
